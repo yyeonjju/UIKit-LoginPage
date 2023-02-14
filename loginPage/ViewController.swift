@@ -40,10 +40,10 @@ final class ViewController: UIViewController {
         textField.frame.size.height = 48
         textField.backgroundColor = .clear
         textField.textColor = .white
-//        textField.tintColor = .white
-//        textField.autocapitalizationType = .none
-//        textField.autocorrectionType = .no
-//        textField.spellCheckingType = .no
+        textField.tintColor = .white
+        textField.autocapitalizationType = .none
+        textField.autocorrectionType = .no
+        textField.spellCheckingType = .no
         textField.keyboardType = .emailAddress
         
         textField.addTarget(self, action: #selector(textFieldEditingChanged(_:)), for: .editingChanged)
@@ -84,10 +84,10 @@ final class ViewController: UIViewController {
         textField.frame.size.height = 48
         textField.backgroundColor = .clear
         textField.textColor = .white
-        //        textField.tintColor = .white
-        //        textField.autocapitalizationType = .none
-        //        textField.autocorrectionType = .no
-        //        textField.spellCheckingType = .no
+        textField.tintColor = .white
+        textField.autocapitalizationType = .none
+        textField.autocorrectionType = .no
+        textField.spellCheckingType = .no
         
         textField.isSecureTextEntry = true
         textField.clearsOnBeginEditing = false
